@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+button {
+	font-family: HelveticaNeue-Medium;
+	font-size: 13px;
+	background: #FFFFFF;
+	box-shadow:none;
+	border: 1px solid #6C7A89;
+	border-radius: 5px;
+	color: #6C7A89;
+	outline:none;
+}
+button:hover {
+	border: 1px solid #00F;
+	box-shadow: 0px 2px 5px 0px rgba(155,154,155,0.20);
+}
+#wrapper {
+	position:relative;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+#resultImage {
+	max-width:1200px;
+	max-height:600px;
+}
+#waitMessage, #noresultMessage {
+	font-family: HelveticaNeue-Medium;
+	display:none;
+}
+#feedbackDiv .feedbackButton {
+	width:150px;
+	display:none;
+}
+#searchDiv {
+	position:fixed;
+	bottom:20px;
+	left: 20px;
+}
+#searchForm {
+	text-align:center;
+}
+#searchForm input {
+	width:300px;
+	height:30px;
+	font-family: HelveticaNeue-Medium;
+	font-size: 17px;
+	line-height: 19px;
+	padding-left:5px;
+	outline:none;
+}
+#searchForm .submitButton {
+	position:relative;
+	left:20px;
+	top: -3.5px;
+	width:100px;
+	height:30px;
+}
